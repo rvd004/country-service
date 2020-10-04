@@ -24,7 +24,7 @@ public class APICommonConstants {
 
     public static final String SUCCESS_MSG = "Success";
 
-    public static final String NOT_FOUND_MSG = "Displays basic information for all the countries";
+    public static final String NOT_FOUND_MSG = "404 - Not Found";
 
     public static final String ISE_MSG = "Internal Server Error";
 
