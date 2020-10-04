@@ -1,0 +1,38 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+  health:
+    db:
+      enabled: false
+    diskspace:
+      enabled: false
+    mongo:
+      enabled: false
+    refresh:
+      enabled: false
+    ping:
+      enabled: false
+    defaults:
+      enabled: false
+
+endpoints:
+  enabled: true
+  info:
+    enabled: true
+  health:
+    enabled: true
+  metrics:
+    enabled: true
+  refresh:
+    enabled: true
+
+spring:
+  profiles: default
+
+countries:
+  baseurl: https://restcountries.eu/rest/v2/

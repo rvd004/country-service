@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "management.health.refresh.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'management.health.refresh.enabled'"
+    },
+    {
+      "name": "endpoints.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'endpoints.enabled'"
+    },
+    {
+      "name": "country-rest-service-config.conn-time-out",
+      "type": "java.lang.String",
+      "description": "A description for 'country-rest-service-config.conn-time-out'"
+    },
+    {
+      "name": "country-rest-service-config.receiveTimeOut",
+      "type": "java.lang.String",
+      "description": "A description for 'country-rest-service-config.receiveTimeOut'"
+    }
+  ]
+}
